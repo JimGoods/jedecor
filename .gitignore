@@ -429,5 +429,9 @@ FodyWeavers.xsd
 
 # JetBrains
 .idea/*
+
+# Statiq
+cache/*
+
 # Keep docs folder for GitHub Pages
 !docs/
