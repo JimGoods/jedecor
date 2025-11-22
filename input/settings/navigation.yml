@@ -1,0 +1,18 @@
+- Title: Home
+  Url: /
+  Class: index
+- Title: Contact Us
+  Url: /contact-us
+  Class: contact-us
+- Title: Decorating Services
+  Url: /decorating-services
+  Class: decorating-services
+- Title: Gallery
+  Url: /gallery
+  Class: gallery
+- Title: Customer Testimonials
+  Url: /customer-testimonials
+  Class: customer-testimonials
+- Title: Questions
+  Url: /frequently-asked-questions
+  Class: frequently-asked-questions

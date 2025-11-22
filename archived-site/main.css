@@ -1,0 +1,242 @@
+/*
+J #ED1B24
+E #EA972F
+D #FEC20C
+E #8CC63E
+C #1BA5D4
+O #0072BB
+R #652D90
+*/
+/* Main Body */
+html
+{
+}
+body
+{
+    /*     margin:0;     padding:0;     background-color:#b2bcaf;     font-family:Verdana; */
+}
+#bodyContainer
+{
+    width:720px;
+    margin:0 auto;
+    font-family: Verdana,Tahoma,Sans-Serif;
+    padding: 10px 10px 10px 10px;
+}
+/* Header */
+#header
+{
+    overflow:hidden;
+    margin-bottom:30px;
+    color:#642E90;
+    font-family:Arial;
+    font-weight:bold;
+    font-size:1.4em;
+    _margin-bottom:0px;
+    _height:70px; /*IE6*/
+}
+#header span
+{
+    float:right;
+}
+#logo
+{
+    float:left;
+}
+#logo2
+{
+    float:right;
+}
+/* Navigation */
+#navigation
+{
+    margin: 0 auto 0 auto;
+    overflow: hidden;
+    font-size: 0.9em;
+    width:100%; /*IE6*/
+}
+#navigation ul
+{
+    list-style-type: none;
+    margin: 0px;
+    padding-left: 40px;
+    padding-bottom: 24px;
+    border-bottom:2px solid #8CC63E;
+    font:bold 0.8em verdana, arial, sans-serif;
+}
+#navigation li
+{
+    float: left;
+    height:21px;
+    margin: 2px 2px 0 2px;
+    border: 1px solid #711515;
+}
+#navigation a:link, #navigation a:visited
+{
+    display:block;
+    background-color:#ED1B24;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 4px;
+}
+#navigation a:hover
+{
+    background-color:#Ffffff;
+    color:#ED1B24;
+}
+body#index li.index, 
+body#contact-us li.contact-us, 
+body#decorating-services li.decorating-services, 
+body#customer-testimonials li.customer-testomonials,
+body#frequently-asked-questions li.frequently-asked-questions
+{
+    border-bottom:1px solid #fff;
+    color:#000000;
+    background-color:#ffffff;
+}
+body#index li.index a:link, body#index li.index a:visited,
+body#contact-us li.contact-us a:link, body#contact-us li.contact-us a:visited,
+body#decorating-services li.decorating-services a:link, body#decorating-services li.decorating-services a:visited,
+body#gallery li.gallery a:link, body#gallery li.gallery a:visited,
+body#customer-testimonials li.customer-testomonials a:link, body#customer-testomonials li.customer-testomonials a:visited,
+body#frequently-asked-questions li.frequently-asked-questions a:link, body#frequently-asked-questions li.frequently-asked-questions a:visited
+{
+    color:#000000;
+    background-color:#ffffff;
+}
+/* Content Containers*/
+#mainContentContainer
+{
+    background: #ffffff url('/web/20220111173105im_/http://jedecor.co.uk/images/paint_pots_849x565_opacity_50.jpg') no-repeat scroll center center;
+    text-align: justify;
+    font-size: 1.0em;
+    border: solid 2px #8CC63E;
+    border-top:solid 0px #FFFFFF; /*Take this out when IE border bug is solved*/
+    padding:10px;
+    overflow: hidden;
+    /*
+    background-image: url('/web/20220111173105im_/http://jedecor.co.uk/images/1x1.gif');
+    filter: alpha(opacity=80);  CSS3 standard 
+    opacity: 0.8;
+    */
+}
+body#gallery #mainContentContainer
+{
+    background: #ffffff;
+}
+#mainContentContainer ul li
+{
+    list-style-image:url('/web/20220111173105im_/http://jedecor.co.uk/images/bullet_8x8.jpg');
+    padding:5px 0 5px 0;
+}
+#mainContentContainer blockquote
+{
+    background:transparent url('/web/20220111173105im_/http://jedecor.co.uk/images/blockquote_left.gif') no-repeat scroll left top;
+    padding-left:35px;
+}
+#mainContentContainer blockquote p
+{
+    background:transparent url(/web/20220111173105im_/http://jedecor.co.uk/images/blockquote_right.gif) no-repeat scroll right bottom;
+    padding-right:35px;
+}
+p.question
+{
+    padding:0 0 0 0;
+    margin:0 0 3px 0;
+}
+p.answer
+{
+    padding:0 0 0 0;
+    margin:0 0 10px 0;
+}
+/* Footer */
+#footerContainer
+{
+    border-top: solid 2px #494949;
+    margin: 15px auto 0 auto;
+    padding: 5px 5px 5px 5px;
+    font-size: 0.8em;
+    overflow:hidden;
+}
+
+#footerLeft
+{
+    float: left;
+}
+#footerRight
+{
+    float: right;
+}
+/* Home page images */
+.homeImages img
+{
+    padding:0 6px 0 6px;
+}
+/* Questions and Answer */
+.question
+{
+    font-weight:bold;
+}
+.question span
+{
+    font-weight:bold;
+    color:#652D90;
+}
+.answer span
+{
+    font-weight:bold;
+    color:#0072BB;
+}
+/* Gallery*/
+img.gallery
+{
+    padding:3px;
+    margin:2px;
+    border-style:groove;
+    border-width:1px;
+    border-color:#0072BB;
+}
+/* Elements */
+h1
+{
+    font-size: 1.1em;
+    margin:0 0 0 0;
+}
+h2
+{
+    color: #F2F2F2;
+    font-size: 0.9em;
+    display: block;
+    background-color: #494949;
+    padding: 5px 10px;
+}
+h3
+{
+    font-size: 0.8em;
+    margin:1px 1px 1px 1px;
+    border:1px 1px 1px 1px;
+    padding:1px 1px 1px 1px;
+}
+a:link, a:visited
+{
+    color: #EE1C23;
+}
+/*
+     FILE ARCHIVED ON 17:31:05 Jan 11, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 15:05:11 Nov 22, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.624
+  exclusion.robots: 0.046
+  exclusion.robots.policy: 0.033
+  esindex: 0.01
+  cdx.remote: 30.441
+  LoadShardBlock: 101.202 (3)
+  PetaboxLoader3.datanode: 110.945 (4)
+  PetaboxLoader3.resolve: 39.265 (2)
+  load_resource: 59.187
+*/
