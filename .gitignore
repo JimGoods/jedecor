@@ -426,3 +426,8 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# JetBrains
+.idea/*
+# Keep docs folder for GitHub Pages
+!docs/
